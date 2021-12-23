@@ -49,7 +49,7 @@ class PDF extends FPDF {
 		global $OsId;
 		// Logo
 		$this->Cell(30);
-		$this->Image('../pics/logo_os.png',10,15,45);
+		$this->Image('../pics/logo_os.png',10,5,45);
 		// Title - Line 1: Company name & OS
 		$this->Cell(20);
 		$this->SetFont('Arial','B',12);
